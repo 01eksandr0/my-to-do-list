@@ -1,0 +1,90 @@
+.header{
+    height: 80px;
+    background-color: #04044e;
+    display: flex;
+    padding: 20px 100px;
+    align-items: center;
+    justify-content: space-between; 
+}
+.boxTitle{
+    position: relative;
+}
+.title{
+    color: #fff;
+    font-size: 24px; 
+}
+.titleShadow{
+    color: #fff;
+    font-size: 24px;
+    opacity: 0.1;
+    position: absolute;
+    top: -7px;
+    right: -7px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.listParagraph{
+    position: relative;
+}
+.paragraph{
+    font-size: 18px;
+    color: #fff;
+}
+.paragraphShadow{
+    font-size: 18px;
+    color: #fff;
+    opacity: 0.1;
+    position: absolute;
+    top: -7px;
+    right: -7px;
+}
+.button{
+    display: none;
+}
+@media screen and (max-width:768px){
+    .header{
+        padding: 20px 50px;
+    }
+        .title {
+            font-size: 18px;
+        }
+    
+        .titleShadow {
+            font-size: 18px;
+        }
+         .list {
+            gap: 30px;
+         }
+        
+        .listParagraph {
+            position: relative;
+        }
+        
+        .paragraph {
+            font-size: 18px;
+            color: #fff;
+                }
+        
+                .paragraphShadow {
+                    font-size: 18px;
+                    color: #fff;
+                    opacity: 0.1;
+                    position: absolute;
+                    top: -7px;
+                    right: -7px;
+                }ß
+    .button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background-color: transparent;
+        font-size: 20px;
+        color: #fff;
+        font-weight: 700;
+    }
+}
