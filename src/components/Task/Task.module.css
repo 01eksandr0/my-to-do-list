@@ -1,0 +1,43 @@
+.task{
+    width: 250px;
+    padding: 10px 15px ;
+    border-radius: 10px;
+}
+.button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: none;
+   background-color: transparent;
+}
+.icon{
+    fill:darkred;
+    width: 32px;
+    height: 32px;
+}
+.iconCheck{
+    width: 26px;
+    height: 26px;
+    fill: greenyellow;
+}
+.timeContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+.text{
+    font-size: 18px;
+    color: #fafafa;
+    font-weight: 500;
+}
+.time{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fafafa;
+}

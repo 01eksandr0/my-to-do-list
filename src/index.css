@@ -9,6 +9,7 @@ body{
   flex-direction: column;
   gap: 0;
   background-color: #aee1e7;
+  
 }
 li{
   list-style-type: none;
